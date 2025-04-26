@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic 3D Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Click the Grid to start the game</h2>
+    <div class="container">
+        <!-- First Counter -->
+        <div class="counter" id="counter1">
+            <div class="box" data-number="0"><span>🍟</span></div>
+            <div class="box" data-number="1"><span>😭</span></div>
+            <div class="box" data-number="2"><span>❤️</span></div>
+            <div class="box" data-number="3"><span>👩‍❤️‍💋‍👨</span></div>
+            <div class="box" data-number="4"><span>🫂</span></div>
+            <div class="box" data-number="5"><span>🥗</span></div>
+            <div class="box" data-number="6"><span>😠</span></div>
+            <div class="box" data-number="7"><span>💔</span></div>
+            <div class="box" data-number="8"><span>🕺</span></div>
+            <div class="box" data-number="9"><span>👩‍❤️‍💋‍👨</span></div>
+            <div class="box" data-number="10"><span>🍟</span></div>
+            <div class="box" data-number="11"><span>😭</span></div>
+            <div class="box" data-number="12"><span>😂</span></div>
+            <div class="box" data-number="13"><span>👩‍❤️‍💋‍👨</span></div>
+            <div class="box" data-number="14"><span>🫂</span></div>
+            <div class="box" data-number="15"><span>🍟</span></div>
+            <div class="box" data-number="16"><span>❤️</span></div>
+            <div class="box" data-number="17"></div>
+            <div class="box" data-number="18"><span>💦</span></div>
+            <div class="box" data-number="19"><span>👩‍❤️‍💋‍👨</span></div>
+            <div class="box" data-number="20"><span>💔</span></div>
+            <div class="box" data-number="21"><span>😭</span></div>
+            <div class="box" data-number="22"><span>🍟</span></div>
+            <div class="box" data-number="23"><span>😂</span></div>
+            <div class="box" data-number="24"><span>💔</span></div>
+            <div class="box" data-number="25"></div>
+            <div class="box" data-number="26"><span>🕺</span></div>
+            <div class="box" data-number="27"><span>🥗</span></div>
+            <div class="box" data-number="28"></div>
+            <div class="box" data-number="29"><span>❤️</span></div>
+            <div class="box" data-number="30"><span>🫂</span></div>
+            <div class="box" data-number="31"><span>💦</span></div>
+            <div class="box" data-number="32"></div>
+            <div class="box" data-number="33"><span>😠</span></div>
+            <div class="box" data-number="34"><span>😂</span></div>
+            <div class="box" data-number="35"><span>🥗</span></div>
+        </div>
+
+        <!-- Second Counter -->
+        <div class="counter" id="counter2">
+            <div class="box" data-number="0"><span>💔</span></div>
+            <div class="box" data-number="1"><span>🤱🏻</span></div>
+            <div class="box" data-number="2"><span>🍟</span></div>
+            <div class="box" data-number="3"><span>😭</span></div>
+            <div class="box" data-number="4"><span>❤️</span></div>
+            <div class="box" data-number="5"><span>😂</span></div>
+            <div class="box" data-number="6"><span>👩‍❤️‍💋‍👨</span></div>
+            <div class="box" data-number="7"><span>😭</span></div>
+            <div class="box" data-number="8"><span>🫂</span></div>
+            <div class="box" data-number="9"></div>
+            <div class="box" data-number="10"><span>🍟</span></div>
+            <div class="box" data-number="11"><span>🤱🏻</span></div>
+            <div class="box" data-number="12"><span>👩‍❤️‍💋‍👨</span></div>
+            <div class="box" data-number="13"><span>😂</span></div>
+            <div class="box" data-number="14"><span>🥗</span></div>
+            <div class="box" data-number="15"><span>🫂</span></div>
+            <div class="box" data-number="16"><span>❤️</span></div>
+            <div class="box" data-number="17"><span>🤱🏻</span></div>
+            <div class="box" data-number="18"><span>🕺</span></div>
+            <div class="box" data-number="19"><span>🕺</span></div>
+            <div class="box" data-number="20"><span>🍣</span></div>
+            <div class="box" data-number="21"><span>💔</span></div>
+            <div class="box" data-number="22"><span>😂</span></div>
+            <div class="box" data-number="23"></div>
+            <div class="box" data-number="24"><span>🫂</span></div>
+            <div class="box" data-number="25"><span>🍟</span></div>
+            <div class="box" data-number="26"><span>😂</span></div>
+            <div class="box" data-number="27"><span>💔</span></div>
+            <div class="box" data-number="28"><span>😂</span></div>
+            <div class="box" data-number="29"><span>👩‍❤️‍💋‍👨</span></div>
+            <div class="box" data-number="30"><span>🕺</span></div>
+            <div class="box" data-number="31"><span>😭</span></div>
+            <div class="box" data-number="32"><span>🥗</span></div>
+            <div class="box" data-number="33"><span>🫂</span></div>
+            <div class="box" data-number="34"><span>💦</span></div>
+            <div class="box" data-number="35"><span>😠</span></div>
+
+        </div>
+        <div class="endColumn">
+            <div class="box" data-number="0"><span>❤️</span></div>
+            <div class="box" data-number="1"><span>🥗</span></div>
+            <div class="box" data-number="2"><span>🍟</span></div>
+            <div class="box" data-number="3"><span>🥗</span></div>
+            <div class="box" data-number="4"><span>👩‍❤️‍💋‍👨</span></div>
+            <div class="box" data-number="5"><span>😭</span></div>
+            <div class="box" data-number="6"><span>💦</span></div>
+            <div class="box" data-number="7"><span>❤️</span></div>
+            <div class="box" data-number="8"><span>💔</span></div>
+        </div>
+    </div>
+
+    <div class="messageWrapper"><h2>For past few years, you were my best comfort. I love you so much ❤️. Will you marry me?</h2></div>
+    <div class="buttonWrapper"><button>Yes ❤️</button> <button>No 💔</button></div>
+    <script src="script.js"></script>
+</body>
+</html>
